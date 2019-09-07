@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Italianno' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <title>MIRAKUL LABRADORS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+
+<link rel="icon" href="logo.png">
+
+   <link href="style.css" rel="stylesheet">
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="fluid-gallery.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+
+
+
+    
+    
+    
+</head>
+
+<body style="background-color:#D9D9D9;">
+<div class="container-fluid">
+<div class="row">
+  <div class="col-xs-12 col-md-12 header" style="height:220px;background-color:#ABABAB;position:relative;">
+  <img  src="logo_mirakul_final.svg" alt="mirakul" style="position:relative;
+left: 50%;top:-70%;
+-webkit-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+transform: translateX(-50%);
+height:600px;">
+  </div>
+</div>
+</div>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid navigacija">
+   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	      <div class="collapse navbar-collapse" id="myNavbar">
+   <ul class="nav navbar-nav">
+	
+      <li><a href="https://www.mirakul.eu/home" id="ruby">HOME</a></li>
+	  <li><a href="https://www.mirakul.eu/aboutus" id="ruby">ABOUT US</a></li>
+       <li><a href="https://www.mirakul.eu/ourdogs" id="ruby">OUR DOGS</a></li>
+       
+	   <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" id="ruby">LITTERS<span class="caret me"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="https://www.mirakul.eu/littern" id="drop">LITTER "N"</a></li>
+          <li><a href="https://www.mirakul.eu/litterr" id="drop">LITTER "R"</a></li>
+		  	  <li><a href="https://www.mirakul.eu/littert" id="drop">LITTER "T"</a></li>
+		  	   <li><a href="https://www.mirakul.eu/litterg" id="drop">LITTER "G"</a></li>
+      </ul></li>
+      
+      <li><a href="https://www.mirakul.eu/gallery" id="ruby">GALLERY</a></li>
+	        <li><a href="https://www.mirakul.eu/contact" id="ruby">CONTACT</a></li>
+    </ul>
+  </div>
+   <div>
+</nav>
+  <div class="btn-group" role="group" aria-label="Basic example">
+<a href="https://www.mirakul.eu/home" class="btn btn-primary btn-lg active button" role="button" aria-pressed="true" style="background-color:#006;">ENG</a>
+<a href="https://www.mirakul.eu/pocetna" class="btn btn-secondary btn-lg active button" role="button" aria-pressed="true" style="color:#006;">CRO</a>
+
+</div>
+  
+<div class="container-fluid">
+<div class="row">
+ 
+     <div class="col-xs-12 col-md-12 news"><p id="novosti">NEWS</p>  <hr></div>
+   
+  
+  </div>
+  </div>
+<div class="container-fluid">
+<div class="row">
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+     <div class="col-xs-12 col-md-4 imagenews"><img class="img-responsive"src="newskheira2.jpg" style="padding-left:10px;padding-bottom:35px;"></div>
+	 <div class="col-xs-12 col-md-4 textnews"><p>We have new Croatian Junior Champion!!!</p> <p id="tekst">
+ 
+Our Fullcool Sangria "Keira" today on NDS Samobor (Croatia) won exc.1 and JBOB under honorable judge Zoran Jojkić!
+She is just 13 months old! 
+Big thanks to her breeder and co-owner Kaća Kacian for supporting us!</p><p class="published">Published 11.5.2019.</p></div>
+   
+  
+  
+  
+  
+ 
+   
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+ 
+   </div>  
+
+
+
+
+
+
+
+
+
+ <div class="row">
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+     <div class="col-xs-12 col-md-4 imagenews"><img class="img-responsive"src="newskheira1.jpg" 
+     style="padding-left:10px;padding-bottom:35px;"></div>
+	 <div class="col-xs-12 col-md-4 textnews"><p>Great news from from Special Dog Show Hunting Breeds CAC Dugo Selo</p> <p id="tekst">
+Fullcool Sangria "Keira" (Wellington and Kala) - Junior Winner, Junior Best of Breed and Junior BISS 3 !! </p><p class="published">Published 20.4.2019.</p></div>
+   
+  
+  
+  
+  
+ 
+   
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+ 
+   </div>
+
+
+      <div class="row">
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+     <div class="col-xs-12 col-md-4 imagenews"><img class="img-responsive"src="newspuppy.jpg" style="padding-left:10px;padding-bottom:35px;"></div>
+	 <div class="col-xs-12 col-md-4 textnews"><p>Puppies available for new home!</p> <p id="tekst">
+We have available male puppies ready for new home. They are healthy, socialized and vaccinated! </p><p class="published">Published 5.1.2019.</p></div>
+   
+  
+  
+  
+  
+ 
+   
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+ 
+   </div>
+      <div class="row">
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+     <div class="col-xs-12 col-md-4 imagenews"><img class="img-responsive"src="kiranewss.jpg" style="padding-left:10px;padding-bottom:35px;"></div>
+	 <div class="col-xs-12 col-md-4 textnews"><p>NDS Crikvenica</p> <p id="tekst">
+On the show in Crikvenica on September 22nd our Tylah Wise Guy "Charlie" in open class earned CAC and
+Fullcool Sangria "Keira" on her show premiere was star of the day! She won baby BOB and finally shortlisted in BIS! </p><p class="published">Published 24.9.2018.</p></div>
+   
+  
+  
+  
+  
+ 
+   
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+ 
+   </div>
+  
+  <div class="row">
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+     <div class="col-xs-12 col-md-4 imagenews"><img class="img-responsive"src="charliechampion.jpg" style="padding-left:10px;padding-bottom:35px;"></div>
+	 <div class="col-xs-12 col-md-4 textnews"><p>Croatian champion!</p> <p id="tekst">
+Like we predicted, Charlie (Tylah Wise Guy) became Croatian champion. With two shows in Varaždin and the show in Dugo selo he earned the title. We are very happy and proud to have such perspective dog in our family. Especially because we planned and got litter with him and Ruby. We have to use this oportunity to thank all our friends! </p><p class="published">Published 1.6.2018.</p></div>
+   
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+ 
+ 
+ 
+   </div>
+  
+  
+  
+  <div class="row">
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+     <div class="col-xs-12 col-md-4 imagenews"><img class="img-responsive"src="summerlitter.jpg" style="padding-left:10px;padding-bottom:35px;"></div>
+	 <div class="col-xs-12 col-md-4 textnews"><p>Summer litter</p> <p id="tekst">
+Let us introduce you to the new litter in Mirakul kennel!
+Charlie (Tylah Wise Guy) and Ruby became parents of 6 puppies on April 8th! We have 3 boys (2 yellow and 1 black) and 3 girls (2 yellow and 1 black). For photos click <a href="litterr.html">here</a>.</p><p class="published">Published 17.4.2018.</p></div>
+   
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+ 
+ 
+   </div>
+ <div class="row" style="padding-bottom:30px;">
+ 
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+     <div class="col-xs-12 col-md-4 imagenews"><img class="img-responsive"src="charlierijeka.jpg" style="padding-left:10px;padding-bottom:35px;"></div>
+	 <div class="col-xs-12 col-md-4 textnews"><p>IDS Rijeka 25.02.2018</p> <p id="tekst">Tylah Wise Guy "Charlie"<br>
+Intermedia class exc. R.CAC R.CACIB<br>
+Judge: Sinead Taggard (IE)<br>We are happy to announce that our beautiful boy Charlie was excellent on show in Rijeka. That is only his beginning.:)</p><p class="published">Published 27.2.2018.</p></div>
+   
+  <div class="col-xs-12 col-md-2 imagenews"></div>
+ </div>
+
+
+
+  </div>
+  
+<footer class="navbar-default navbar-fixed-bottom">
+<div class="container-fluid">
+ <div class="row">
+ 
+    <div class="col-xs-9 col-md-11 footer">
+	 <p id="potpis" style="padding-left:120px;">All rights reserved &#169;2019 Mirakul</p></div>
+    <div class="col-xs-3 col-md-1 footer"><a href="https://www.instagram.com/mirakul_kennel/?hl=hr" target="blank" > 
+	<img class="social" src="insta.png"></a> <a href="https://www.facebook.com/ivana.crnkokuzmic" target="blank"> 
+	<img class="social" src="fb.png"></a> </div>
+
+	</div>
+ 
+ </div>
+ 
+ 
+
+ </footer>
+
+
+</body>
+</html>
+
+ </body>
+ </html>

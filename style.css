@@ -1,0 +1,488 @@
+body { 
+   overflow-x: hidden;
+ }
+
+
+.header{
+    background-image:url(headerb.jpg);
+ 
+    background-repeat: no-repeat;  
+    background-position: center; 
+    height:220px;
+    background-color:#ABABAB;
+    position:relative;
+}
+
+
+
+.news{
+     color:#000066;
+     text-align:center;  font-family: 'Palanquin', sans-serif;
+ }
+.standard{
+     color:#000066;
+     text-align:center;  font-family: 'Palanquin', sans-serif;padding-top:25px;padding-bottom:25px;
+ }
+
+#novosti{ 
+font-size:30px;
+padding-left:20px;
+padding-bottom:20px;
+text-decoration:none;
+padding-top:20px; font-family: 'Palanquin', sans-serif; 
+}
+
+#wel{
+font-family: 'Palanquin', sans-serif;
+font-size:30px;
+text-align:center;
+padding-top:20px;
+color:#006;
+padding-bottom:20px;
+}
+#welcome{
+font-family: 'Palanquin', sans-serif;
+font-size:30px;
+text-align:center;
+padding-top:20px;
+color:#006;
+padding-bottom:20px;
+}
+
+
+#onamatekst{
+font-size:20px;
+font-family:'Palanquin';
+text-align:center;text-align:justify;
+padding-top:15px;
+padding-right:5px;
+
+padding-bottom:20px; 
+color:#2E2E2E;	
+}
+	
+	#potpi{font-family:'Italianno';
+	color:grey;
+	text-align:right;
+	font-size:30px;padding-bottom:20px;
+	}
+	
+	
+
+.imagenews{
+
+padding-bottom:20px;
+
+
+}
+#logo{height:400px;
+    
+}
+
+.detalji{margin-top:40px; width: auto;
+  height: 654px;
+ overflow: auto; }
+ 
+ ::-webkit-scrollbar {
+  width:10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #006; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.textnews{
+
+font-family: 'Palanquin', sans-serif;
+font-size:22px;
+
+
+}
+#tekst{padding-right:10px;text-align:justify;
+
+font-family: 'Palanquin', sans-serif;
+font-size:15px;
+}
+#standardtekst{text-align:justify;text-align:center;
+
+font-family: 'Palanquin', sans-serif;
+font-size:15px;color:black;}
+
+#stenetekst{text-align:justify;
+
+font-family: 'Palanquin', sans-serif;
+font-size:15px;
+color:black;}
+
+#pasrodotekst{text-align:justify;
+
+font-family: 'Palanquin', sans-serif;
+font-size:15px;color:black;padding-bottom:50px;}
+
+#rodovniktekst{text-align:justify;
+
+font-family: 'Palanquin', sans-serif;
+font-size:15px;color:black;}
+#paszamenetekst{text-align:justify;
+
+font-family: 'Palanquin', sans-serif;
+font-size:15px;color:black; padding-top:20px;}
+#tekstdva{padding-right:10px;text-align:justify;
+
+ font-family: 'Palanquin', sans-serif;
+font-size:18px;
+}
+.navigacija{background-color:#ABABAB;
+padding:0;
+
+}
+
+.me{color:white;}
+li:hover{background-color:white;
+}
+.mapa{padding-bottom:50px;
+    
+}
+.kontakt{color:blue;
+font-size:22px;letter-spacing: 3px;
+    
+}
+.navbar-default .navbar-nav>li>a {
+    font:'Allura';
+    color:#006;  
+    font-weight: bold;
+}
+
+#ruby{
+    font:'Allura';
+    color:#006;  
+    font-weight: bold;letter-spacing: 1px;font-size:17px;
+
+}
+#drop{font:'Allura';
+    color:#006; }
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+ 
+}
+
+
+
+
+
+.h2{font:'Rubik Mono One';}
+
+.published{font-family:Verdana;
+font-size:12px;padding-left:10px;margin-bottom:10px;}
+
+.dogdetails{ font-family: 'Palanquin', sans-serif;text-align:center;
+font-size:15px;font-weight:bold;color:#006;border:1px white;padding-bottom:-21px;}
+.dogo{
+padding:15px;color:black;font-size:12px;text-align:center;
+}
+
+.footer{background-color:#ABABAB;
+padding-top:15px;text-align:center; padding-bottom:15px;height:50px;
+}
+
+#potpis{font: 400 100px/1.2 'Merienda One', Verdana;
+font-size:10px;padding-top:20px;}
+
+.social{
+padding-top:10px;
+max-height:34px;
+padding-right:2px;
+}
+.socialinsta{height:40px;}
+.socialfb{height:37px;}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box; color:black;  
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  
+  resize: none;
+  color:black;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: white;
+  border: none;
+  color: black;
+
+  width:100%;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-weight: 900;
+  color:#000066;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000066;
+  border: none;
+  color: white;
+
+  width:100%;
+  padding: 16px 32px;
+  text-decoration: none;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.mess{margin-bottom:70px;
+  
+   color:white;
+    
+    
+    
+    
+}
+
+
+#getin{color:white;
+    font-family:'Helvetica';font-weight: 900;
+}
+
+
+#sendusmsg{color:white;
+    font-family:'Helvetica';font-weight: 900;
+}
+
+#adresa{height:25px;}
+#mail{height:20px;}
+#name{height:25px;}
+
+.indent{padding-left:28px;}
+.naslovna{ text-align: center; margin: 1em 0;}
+
+
+.navbar-default .navbar-nav>li>a {
+   font:'Allura';
+    color:#006;  
+    font-weight: bold;
+}
+.pedigree_table {
+    margin: 15px auto 40px;
+    width: 860px;
+}
+.text {
+    color: black;
+     font-family: 'Open Sans';
+    font-style: normal;
+   
+    /* vertical-align: top; */
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.pedigree_table > tbody > tr > td {
+    line-height: 20px;
+    font-size: 14px;
+    text-align: left;
+    vertical-align: middle;
+    padding: 5px 5px 5px 7px;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 284px;
+}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.charlie{padding-top:35px;text-align: center;
+   padding-bottom:25px;
+  color:#006;text-decoration:none;
+ font-family: 'Italianno';
+   word-spacing: 10px;padding-right:20px;
+   padding-bottom:50px;
+	 
+	font-weight: 400;
+	font-size:3em;}
+	.nikki{padding-top:35px;text-align: center;
+   padding-bottom:25px;text-decoration:none;
+    color:#006;
+ font-family: 'Italianno';
+   word-spacing: 10px;
+	font-weight: 400;
+	font-size:35px;
+	}
+	
+#charlieimg{alignment:center; border:1px solid #006;display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;}
+#nikkiimg{alignment:center;  border:1px solid #006;display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.language{color:#2E2E2E;text-decoration:none; position: absolute;
+  top: 0px;
+  right: -500px;
+  font-size: 18px;font-family: 'Palanquin', sans-serif;}
+.languageli{color:#2E2E2E;text-decoration:none; position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;font-family: 'Palanquin', sans-serif;}
+
+
+.btn-group{float:right;background-color:#D9D9D9;margin-top:-21px;}
+.btn-primary{background-color:#6c757d;}
+.btn-primary.active{
+    color: #fff;
+    background-color: white;
+    border-color: #204d74;
+}
+
+.paszm2{padding-right:25px;padding-bottom:30px;margin-bottom:25px;}
+
+@media (max-width: 768px) { 
+    paszm2
+    {width:100%;height:auto;display: block;
+  margin-left: auto;
+  margin-right: auto;}
+    
+}
+
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: relative; /* Stay in place */
+  z-index: 1; /* Sit on top */
+
+  left: 0;
+  top: 0;
+  width: 70%; /* Full width */
+  height: 70%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+ 
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
